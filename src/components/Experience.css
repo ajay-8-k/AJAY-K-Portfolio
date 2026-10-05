@@ -1,0 +1,59 @@
+.experience-section {
+  position: relative;
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.exp-title {
+  font-size: 1.3rem;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.exp-company {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.exp-date {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+}
+
+.exp-desc {
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+  line-height: 1.7;
+}
+
+.exp-cert-id {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+.exp-cert-id span {
+  color: var(--primary-accent);
+  font-family: monospace;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .exp-header {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
