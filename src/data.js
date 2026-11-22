@@ -302,6 +302,15 @@ export const portfolioData = {
             date: "JAN 2026",
             thumbnail: "/certificates/National Level Srinivasa Ramanujan Mathematical Competitions_Quiz.jpg",
             file: "/certificates/National Level Srinivasa Ramanujan Mathematical Competitions_Quiz.jpg"
+        },
+        {
+            id: "software-testing",
+            title: "SOFTWARE TESTING",
+            organization: "Software Testing",
+            category: "CERTIFICATIONS",
+            date: "2026",
+            thumbnail: "/certificates/SOFTWARE_TESTING.jpeg",
+            file: "/certificates/SOFTWARE_TESTING.jpeg"
         }
     ]
 };
